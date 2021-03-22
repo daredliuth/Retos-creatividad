@@ -3,17 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Creatividad</title>
+    <script src="js/main.js"></script>
+    <title>Retos creatividad</title>
 </head>
-<body>
-    <header>
-        <nav id=Container-header></nav>
-    </header>
-    <h1>Retos quincenales</h1>
-    <span>
-        <h2>Comida creativa</h2>
-        
-    </span>
+<body onload="Inicio()">
+    <div class="container-fluid">
+        <div id="Navbar" class="row">
+            <div class="col-sm-12"onclick="show(Home)" style="cursor: pointer;">Creatividad 2021-1</div>
+            <br>
+            <div>Montiel Navarrete Eliuth</div>
+            <div id="Pestañas">
+                <div class="Pestaña-sm" onclick="show(1)">Comida creativa</div>
+                <div class="Pestaña-sm" onclick="show(2)">Como un niño</div>
+                <div class="Pestaña-xl" onclick="show(3)">Ayuda a mi comunidad</div>
+            </div>
+        </div>
+
+        <div id="Home" class="row">
+            <Header>Esta es la introducción.</Header>
+           <br>
+           <div> Esta es mi página web donde se colocan algunos de los trabajos que realizamos durante el semestre 2021-1, al final de cada sección
+            se colocará un enlace para descargar la presentación correspondiente a dicha sección.
+            </div>
+            <br>
+            <div>Mi nombre es Eliuth Montiel Navarrete y a lo largo de mi vida han existido diferetes eventos que me han moldeado en quien
+                soy hoy, es por ello que una de las actividades fue realizar una presentación con aquello que nos ha marcado.
+            </div>
+            <br>
+            <div>En primer lugar se encuentra la primera cónsola de videojuegos que tuve, la cual me ha acercado a esta industria y que me ha
+                permitido experimentar diferentes historias que han podido marcarme tanto como una experiencia propia o un libro a ua persona.
+            </div>
+            <br>
+            <div>En mi reproductor de música tengo una gran parte de mi personalidad, con canciones que me permiten estar en contacto con mi 
+                interior y externar aquello que siento.
+            </div>
+            <br>
+            <div>Existen sagas de videojuegos que me han marcado mi vida, ya sea por su historia, su desarrollo, su temática o los ideales de
+                los protagonistas, entre estas sagas se ecnuentran "Assasins creed", "Bioshock" y muy recientemente "Overwatch".
+            </div>
+            <br>
+            <div>Una de las clases que me ha marcado es la clase de francés en la preparatoria, representada por mi cuaderno de actividades
+                el cual es una muestra de trabajo y constancia, una de las clases que me formó como estudiante.
+            </div>
+            <br>
+            <div>Otra clase importante para mi fue en la misma preparatoria, esta vez la clase de historia, donde creció mi sentido de interés
+                social y mi desición por no dedicar por completo mi vida a una sola cosa, si no, buscar siempre el conocimiento para tener una
+                mentalidad más amplia.
+            </div>
+            <br>
+            <div>Durante la preparatoria cursé una carrera técnica en computación con la cual comenzó mi pasion por la programación y la
+                cual me dio la oportunidad de participar en un concurso interpreparratoriano en el que obtuvimos un tercer lugar y un
+                reconocimiento el cual nunca me imaginé que obtendría durante la preparatoria.
+            </div>
+            <br>
+            <div>Un anime que me ha marcado recientemente es Jojo's bizarre adventure el cual en palabras de su autor es una oda a la humanidad
+                y busca representar ese esplendor del ser humano.
+            </div>
+            <br>
+            <div>Las personas que he conocido y con las que he decidido juntarme han formado partede mi personalidad, mis gustos y ciertas de mis
+                actitudes, por lo que son importantes para mi.
+            </div>
+            <br>
+            <div>La primera materia de la universidad en la que tuve un verdadero reto que casi no supero fue estructuras de datos y algoritmos,
+                esta fue mi última prueba para poder ingresar a ingeniería mecatrónica y cambió mi manera de ver y entender la programación.
+            </div>
+            <br>
+            <div>Finalmente he colocado a la carrera de ingeniería mectrónica la cual sigue formandome a día de hoy.</div>
+            <a class="row" download href="Presentaciones/Expediente de mi vida.pdf" target="_blank">EEExpediente de mi vida</a>
+        </div>
+
+        <div id="1" class="row">
+            <header>Esto es comida creativa</header>
+            <br>
+            <div>Para este reto tuvimos que crear formas creativas de comer, ya sea implementando alternativas para los cubierto o dandole
+                un toque especial a la comida tradicional.
+            </div>
+            <br>
+            <div>En mi caso comencé pensando en utilizar diferente cubierto para comer, como utilizar palillos chinos para comer cereal
+                , utilizar una receta diferente para algún platillo, etc. Pero al final decidí reemplazar una parte escencial de la 
+                comida de los mexicanos con... lechuga, así que para comer mi carne asada, utilicé lechuga en vez de tortilla.
+            </div>
+            <a href="Presentaciones/COMIDA.pdf" target="_blank">Comida creativa</a>
+
+        </div>
+
+        <div id="2" class="row">
+            <header>Esto es como un niño.</header>
+            <div>Otra de las actividades que realizamos fue el reto titulado "Como un niño", en el cual realizamos diversas actividades
+                que hacíamos cuando eramos niños, decidí comer algunos algunos dulces que no disfrutaba desde hace tiempo, armé algunos
+                de los juguetes que más me gustaban y me di el tiempo para jugar con ellos también disfrute de algunos vídeos que me encantaban
+                y comí bastante de esa comida chatarra que tanto me gustaba, finalmente aproveché el tiempo para rejugar algunos videojuegos que
+                no tocaba desde hace tiempo y solía jugar bastante cuando era niño.
+            </div>
+            <a href="Presentaciones/Como niño.pdf" target="_blank">Como niño</a>
+        </div>
+
+        <div id="3" class="row">
+            <header>Esto es ayudando a mi comunidad.</header>
+            <div>El último reto que hicimos fue realizar algo para ayudar a nuestras comunidades, lo que decidí hacer fue una serie  de
+                imágenes con conceptos de ciencia explicados para niños, debido a que considero que la ciencia y las artes permiten
+                desarrollar el pensamiento y es importante despertarlo desde temprana edad.
+            </div>
+            <br>
+            <div>Este proyecto ha evolucionado a un curso de programación orientado principalmente a los estudintes de ingeniería, pero
+                adaptable a cualquier otra persona. Este proyecto sigue en construcción.
+            </div>
+            <a href="img/Mediciones_minecraft.png" target="_blank">Ayudando a mi comunidad</a>
+        </div>
+    </div>
 </body>
 </html>

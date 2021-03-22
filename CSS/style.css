@@ -1,5 +1,46 @@
-Container-header
+#Navbar
 {
     background-color: red;
-    padding: 0%;
+    color: white;
+}
+
+#Pestañas
+{
+    height: 18px;
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.Pestaña-sm
+{
+    background: url(../img/pestaña.png);
+    background-size: 170px 18px;
+    font-size: medium;
+    text-align: center;
+    display: inline-block;
+    height: 18px;
+    width: 170px;
+    cursor: pointer;
+}
+
+.Pestaña-xl
+{
+    background: url(../img/pestaña.png);
+    background-size: 190px 18px;
+    font-size: medium;
+    text-align: center;
+    display: inline-block; /*Hacemos que tenga width y height*/
+    height: 18px;
+    width: 190px;
+    cursor: pointer;
+}
+
+#Footer
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: red;
+    color: white;
 }
